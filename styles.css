@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #121212;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+.soundboard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.sound-btn {
+  padding: 20px;
+  background: #333;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.sound-btn:hover {
+  background: #444;
+}
+
+.sound-btn.active {
+  transform: scale(0.95);
+  background: #555;
+}
+
+.controls {
+  margin-top: 25px;
+}
+
+#muteBtn {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background: #ff5e57;
+  border: none;
+  color: white;
+  border-radius: 8px;
+}
